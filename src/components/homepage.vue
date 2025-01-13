@@ -1,17 +1,17 @@
 <template>
     <div>
-        <Navbar/>
+        <NavbarComponent/>
         <HeroSection/>
     </div>
 </template>
 <script>
-import Navbar from './navbar.vue';
-import Heropage from './hero.vue'
-
+import NavbarComponent from './navbar.vue';
+import HeroSection from './hero.vue';
 export default {
-    name:'Home',
+    name:'HomepageComponent',
     components: {
-        Navbar,
+        NavbarComponent,
+        HeroSection
     },
 };
 </script>

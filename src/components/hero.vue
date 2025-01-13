@@ -2,11 +2,13 @@
     <section>
         <p>seamless travel with Fast <span style="font-weight:200px;color:rgb(5,131,203)">RapidRide</span> car rental</p>
         <button class="book">Book A ride</button>
-        <button class="contact">contact</button>
+        <button class="transform hover:scale-105">contact</button>
     </section>
 </template>
 <script>
-
+export default {
+    name: 'HeroComponent',
+}
 </script>
 <style scoped>
     .book{

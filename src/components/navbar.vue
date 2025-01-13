@@ -1,28 +1,20 @@
 <template>
     <nav>
         <section>
-            <p class='rider'>Riders</p>
-            <p class='choice'>choice</p>
+            <p class="text-red-500 font-[15px] font-[700]">Riders</p>
+            <p class="choice font-[11px] font-[60] padding-[7px_4px]">choice</p>
         </section>
     </nav>
 </template>
 
 <script>
     export default {
-        name: 'Navbar',
+        name: 'NavbarComponent',
     };
 </script>
 <style scoped>
-    .rider{
-        color:red;
-        font-size: 15px;
-        font-weight:700;
-    }
     .choice{
         color:rgb(112, 196, 245);
-        font-size:11px;
-        font-weight: 600;
-        padding: 6px;
     }
     section{
         display:flex;
